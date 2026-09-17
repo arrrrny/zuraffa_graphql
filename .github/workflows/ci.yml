@@ -12,11 +12,14 @@ jobs:
       - name: Checkout companion repo
         uses: actions/checkout@v4
 
-      - name: Checkout core zuraffa as sibling
+      - name: Checkout core zuraffa into the workspace
         uses: actions/checkout@v4
         with:
           repository: arrrrny/zuraffa
-          path: ../zuraffa
+          path: zuraffa-core
+
+      - name: Point the zuraffa override at the CI core checkout
+        run: sed -i 's|path: \.\./zuraffa|path: zuraffa-core|' pubspec.yaml
 
       - name: Install Dart SDK
         uses: dart-lang/setup-dart@v1
