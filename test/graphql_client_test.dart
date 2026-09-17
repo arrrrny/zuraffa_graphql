@@ -1,5 +1,4 @@
 import 'package:test/test.dart';
-import 'package:zuraffa/zuraffa.dart';
 import 'package:zuraffa_graphql/zuraffa_graphql.dart';
 
 void main() {
