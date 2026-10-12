@@ -19,8 +19,4 @@ dependencies:
   zuraffa: ^7.0.0
 
 dev_dependencies:
-  test: ^1.25.0
-
-dependency_overrides:
-  zuraffa:
-    path: ../zuraffa
+  test: ^1.33.0
