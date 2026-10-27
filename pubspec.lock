@@ -433,6 +433,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.9.1"
+  petitparser:
+    dependency: transitive
+    description:
+      name: petitparser
+      sha256: "2f1564aadb14215e478563b5406cb80729d022158c01dc50c96013c2f7eb4790"
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.1.0"
   pool:
     dependency: transitive
     description:
@@ -673,6 +681,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.2.1"
+  xml:
+    dependency: "direct overridden"
+    description:
+      name: xml
+      sha256: "0fe8cc98946def31cbcbc8734aa4067031e6f65ea3a78a508060bfed2200bfeb"
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.1.0"
   yaml:
     dependency: transitive
     description:
@@ -709,9 +725,9 @@ packages:
     dependency: "direct main"
     description:
       name: zuraffa
-      sha256: e3e83fdb86b2b2ca08699e77d37b73c2752419093ae6645e8e0d9e93d22276de
+      sha256: b89bb4a0646347802d4c7b1052a626b2d0b6f956891eb9db4992325e7624b695
       url: "https://pub.dev"
     source: hosted
-    version: "7.0.1"
+    version: "7.2.0"
 sdks:
-  dart: ">=3.11.0 <4.0.0"
+  dart: ">=3.13.0 <4.0.0"
