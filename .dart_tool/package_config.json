@@ -3,15 +3,15 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-109.0.0",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-110.0.0",
       "packageUri": "lib/",
-      "languageVersion": "3.11"
+      "languageVersion": "3.13"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/analyzer-14.5.0",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/analyzer-14.6.0",
       "packageUri": "lib/",
-      "languageVersion": "3.11"
+      "languageVersion": "3.13"
     },
     {
       "name": "ansi_escape_codes",
@@ -21,7 +21,7 @@
     },
     {
       "name": "archive",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/archive-4.5.1",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/archive-4.5.2",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -45,7 +45,7 @@
     },
     {
       "name": "build",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/build-4.0.11",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/build-5.0.0",
       "packageUri": "lib/",
       "languageVersion": "3.11"
     },
@@ -74,6 +74,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "cli_util",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/cli_util-0.6.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.7"
+    },
+    {
       "name": "clock",
       "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/clock-1.1.3",
       "packageUri": "lib/",
@@ -81,7 +87,7 @@
     },
     {
       "name": "code_builder",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/code_builder-4.12.0",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/code_builder-4.13.0",
       "packageUri": "lib/",
       "languageVersion": "3.10"
     },
@@ -99,19 +105,19 @@
     },
     {
       "name": "coverage",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/coverage-1.15.1",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/coverage-1.16.0",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.9"
     },
     {
       "name": "crypto",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/crypto-3.0.7",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/crypto-3.0.8",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
       "name": "dart_style",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/dart_style-3.1.13",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/dart_style-3.1.14",
       "packageUri": "lib/",
       "languageVersion": "3.11"
     },
@@ -147,9 +153,9 @@
     },
     {
       "name": "frontend_server_client",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/frontend_server_client-4.1.0",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/frontend_server_client-4.2.0",
       "packageUri": "lib/",
-      "languageVersion": "3.10"
+      "languageVersion": "3.13"
     },
     {
       "name": "get_it",
@@ -213,7 +219,7 @@
     },
     {
       "name": "hive_ce",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/hive_ce-2.20.2",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/hive_ce-2.22.0",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -231,7 +237,7 @@
     },
     {
       "name": "http_multi_server",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/http_multi_server-3.2.2",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/http_multi_server-3.2.3",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -339,7 +345,7 @@
     },
     {
       "name": "posix",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/posix-6.5.2",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/posix-6.5.4",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -363,9 +369,9 @@
     },
     {
       "name": "shelf",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/shelf-1.4.2",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/shelf-1.4.3",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.9"
     },
     {
       "name": "shelf_packages_handler",
@@ -375,9 +381,9 @@
     },
     {
       "name": "shelf_static",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/shelf_static-1.1.3",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/shelf_static-1.2.0",
       "packageUri": "lib/",
-      "languageVersion": "3.3"
+      "languageVersion": "3.9"
     },
     {
       "name": "shelf_web_socket",
@@ -387,7 +393,7 @@
     },
     {
       "name": "source_gen",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/source_gen-4.3.0",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/source_gen-4.3.1",
       "packageUri": "lib/",
       "languageVersion": "3.11"
     },
@@ -477,7 +483,7 @@
     },
     {
       "name": "vm_service",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/vm_service-15.3.0",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/vm_service-15.4.0",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     },
@@ -489,9 +495,9 @@
     },
     {
       "name": "web",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/web-1.1.1",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/web-1.1.2",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.13"
     },
     {
       "name": "web_socket",
@@ -531,13 +537,13 @@
     },
     {
       "name": "zorphy",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/zorphy-2.4.3",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/zorphy-2.4.4",
       "packageUri": "lib/",
       "languageVersion": "3.8"
     },
     {
       "name": "zorphy_annotation",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/zorphy_annotation-2.4.3",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/zorphy_annotation-2.4.4",
       "packageUri": "lib/",
       "languageVersion": "3.8"
     },
