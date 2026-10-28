@@ -543,7 +543,7 @@
     },
     {
       "name": "zuraffa",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/zuraffa-7.2.0",
+      "rootUri": "../../zuraffa",
       "packageUri": "lib/",
       "languageVersion": "3.11"
     },
