@@ -14,12 +14,6 @@
       "languageVersion": "3.13"
     },
     {
-      "name": "ansi_escape_codes",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/ansi_escape_codes-2.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.6"
-    },
-    {
       "name": "archive",
       "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/archive-4.5.2",
       "packageUri": "lib/",
@@ -128,12 +122,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "equatable",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/equatable-2.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
       "name": "ffi",
       "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/ffi-2.2.0",
       "packageUri": "lib/",
@@ -224,12 +212,6 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "hotreloader",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/hotreloader-4.4.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
       "name": "http",
       "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/http-1.6.0",
       "packageUri": "lib/",
@@ -246,12 +228,6 @@
       "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/http_parser-4.1.2",
       "packageUri": "lib/",
       "languageVersion": "3.4"
-    },
-    {
-      "name": "image",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/image-4.12.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
     },
     {
       "name": "io",
@@ -278,12 +254,6 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "markdown",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/markdown-7.3.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.9"
-    },
-    {
       "name": "matcher",
       "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/matcher-0.12.20",
       "packageUri": "lib/",
@@ -300,12 +270,6 @@
       "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/mime-2.1.0",
       "packageUri": "lib/",
       "languageVersion": "3.2"
-    },
-    {
-      "name": "nocterm",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/nocterm-0.9.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.5"
     },
     {
       "name": "node_preamble",
@@ -428,12 +392,6 @@
       "languageVersion": "3.3"
     },
     {
-      "name": "stream_transform",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/stream_transform-2.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.4"
-    },
-    {
       "name": "string_scanner",
       "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/string_scanner-1.4.1",
       "packageUri": "lib/",
@@ -528,12 +486,6 @@
       "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/yaml-3.1.4",
       "packageUri": "lib/",
       "languageVersion": "3.4"
-    },
-    {
-      "name": "zmodem",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/zmodem-0.0.6",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
     },
     {
       "name": "zorphy",
