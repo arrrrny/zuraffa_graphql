@@ -200,8 +200,8 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "graphql",
-      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/graphql-5.2.4",
+      "name": "graphql_plus",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/graphql_plus-5.2.6",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -501,7 +501,7 @@
     },
     {
       "name": "zuraffa",
-      "rootUri": "../../zuraffa",
+      "rootUri": "file:///Users/arrrrny/.pub-cache/hosted/pub.dev/zuraffa-7.4.1",
       "packageUri": "lib/",
       "languageVersion": "3.11"
     },
@@ -513,8 +513,8 @@
     }
   ],
   "generator": "pub",
-  "generatorVersion": "3.13.5",
+  "generatorVersion": "3.14.0",
   "flutterRoot": "file:///usr/local/share/flutter",
-  "flutterVersion": "3.47.7",
+  "flutterVersion": "3.50.0",
   "pubCache": "file:///Users/arrrrny/.pub-cache"
 }
