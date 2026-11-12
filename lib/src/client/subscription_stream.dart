@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:graphql/client.dart';
+import 'package:graphql_plus/graphql_plus.dart';
 import 'package:zuraffa/zuraffa.dart';
 
 /// Converts a GraphQL subscription [Stream] into a [SignalResult]-compatible
@@ -94,9 +94,16 @@ class SubscriptionStream<T> {
         },
         onDone: () {
           // If the stream completes without error, recreate it to maintain
-          // the long-lived subscription behavior.
+          // the long-lived subscription behavior. A client that completes
+          // subscriptions sooner (graphql_plus settles/cancels on completion)
+          // would otherwise turn this into a tight reconnect loop, so back
+          // off by the same delay the error path uses.
           if (!controller.isClosed) {
-            subscribe();
+            Future.delayed(const Duration(milliseconds: 100), () {
+              if (!controller.isClosed) {
+                subscribe();
+              }
+            });
           }
         },
       );

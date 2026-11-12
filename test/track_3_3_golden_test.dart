@@ -39,6 +39,11 @@ void main() {
       expect(code.contains('subscription'), true);
       expect(code.contains('SignalResult'), true);
       expect(code.contains('GraphQLClient'), true);
+      // The generated client import must point at the graphql_plus fork.
+      expect(
+        code.contains("import 'package:graphql_plus/graphql_plus.dart'"),
+        true,
+      );
     });
 
     test('golden: datasource with watch stub when subscriptions disabled', () {
@@ -76,6 +81,11 @@ void main() {
       expect(code.contains('GraphQLClientProvider'), true);
       expect(code.contains('GraphQLClient'), true);
       expect(code.contains('ZuraffaContainer.instance'), true);
+      // The DI module must import the graphql_plus fork, not stock graphql.
+      expect(
+        code.contains("import 'package:graphql_plus/graphql_plus.dart'"),
+        true,
+      );
     });
 
     test('golden: subscription document is valid GraphQL', () {
