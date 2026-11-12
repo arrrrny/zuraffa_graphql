@@ -1,6 +1,8 @@
 ## 7.4.2 - 2026-11-12
 
-Adopt `graphql_plus` ^5.2.6 (pub.dev, arrrrny fork) in place of stock `graphql` `^5.2.4 -- ships the QueryManager double-completion hardening (guarded settle, subscription cancellation, `No element` on empty streams) that is the root cause behind the vendure #4/#8 timeout-storm family. Import surface and generated-code semantics unchanged: `package:graphql/client.dart` becomes `package:graphql_plus/graphql_plus.dart` (the fork keeps the identical export barrel and lib/src layout). Closes #1.
+Adopt `graphql_plus` ^5.2.6 (pub.dev, arrrrny fork) in place of stock `graphql` `^5.2.4` -- ships the QueryManager double-completion hardening (guarded settle, subscription cancellation, `No element` on empty streams) that is the root cause behind the vendure #4/#8 timeout-storm family. Import surface and generated-code semantics unchanged: `package:graphql/client.dart` becomes `package:graphql_plus/graphql_plus.dart` (the fork keeps the identical export barrel and lib/src layout). Closes #1.
+
+Maintenance note: `graphql_plus` is a temporary fork published by an unverified uploader, and this package takes its whole network stack from it. The exit plan is to move back to upstream `graphql` as soon as it ships the QueryManager fix; prefer a verified publisher for the fork in the meantime. Track this in #1.
 
 ## 7.4.1 - 2026-11-11
 
