@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:graphql/client.dart';
+import 'package:graphql_plus/graphql_plus.dart';
 import 'package:zuraffa/zuraffa.dart';
 
 /// Converts a GraphQL subscription [Stream] into a [SignalResult]-compatible

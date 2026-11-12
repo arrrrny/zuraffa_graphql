@@ -17,7 +17,7 @@ class DiGenerator {
   String generate(List<DiRegistration> registrations) {
     final library = cb.Library((b) {
       b.directives.add(cb.Directive.import('package:zuraffa/zuraffa.dart'));
-      b.directives.add(cb.Directive.import('package:graphql/client.dart'));
+      b.directives.add(cb.Directive.import('package:graphql_plus/graphql_plus.dart'));
 
       // Add relative imports for each datasource and repository
       for (final reg in registrations) {

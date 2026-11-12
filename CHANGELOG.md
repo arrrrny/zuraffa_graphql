@@ -1,3 +1,7 @@
+## 7.4.2 - 2026-11-12
+
+Adopt `graphql_plus` ^5.2.6 (pub.dev, arrrrny fork) in place of stock `graphql` `^5.2.4 -- ships the QueryManager double-completion hardening (guarded settle, subscription cancellation, `No element` on empty streams) that is the root cause behind the vendure #4/#8 timeout-storm family. Import surface and generated-code semantics unchanged: `package:graphql/client.dart` becomes `package:graphql_plus/graphql_plus.dart` (the fork keeps the identical export barrel and lib/src layout). Closes #1.
+
 ## 7.4.1 - 2026-11-11
 
 Fleet release 7.4.1: core adds zfa tunnel (Cloudflare-hosted MCP servers), MCP streamable-HTTP transport with usecase tools, blocking lifecycle hooks (#2032), typed tool param coercion (#2061); whole fleet mono-aligned to 7.4.1.

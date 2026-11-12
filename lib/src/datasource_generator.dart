@@ -7,7 +7,7 @@ import 'package:zuraffa_graphql/zuraffa_graphql.dart';
 /// Generates fully implemented remote datasource classes.
 ///
 /// Creates a datasource with `query`, `mutation`, and `subscription` methods
-/// using `package:graphql` client. Union-returning operations are handled
+/// using `package:graphql_plus` client. Union-returning operations are handled
 /// through [UnionResultHandler] when an [errorConfig] is provided.
 /// ```dart
 /// final gen = DatasourceGenerator(typeMapper: mapper);
@@ -80,7 +80,7 @@ class DatasourceGenerator {
       b.directives.add(cb.Directive.import('package:zuraffa/zuraffa.dart'));
       b.directives.add(
         cb.Directive.import(
-          'package:graphql/client.dart',
+          'package:graphql_plus/graphql_plus.dart',
           show: [
             'GraphQLClient',
             'QueryOptions',
