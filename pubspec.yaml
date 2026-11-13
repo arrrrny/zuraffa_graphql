@@ -16,7 +16,7 @@ dependencies:
   gql: ^1.0.1
   http: ^1.6.0
   path: ^1.9.1
-  zuraffa: ^7.4.1
+  zuraffa: ^7.4.2
 
 dev_dependencies:
   test: ^1.33.0
@@ -25,3 +25,6 @@ dev_dependencies:
 # still transitively pull the abandoned minio (xml 6.x) resolve cleanly.
 dependency_overrides:
   xml: 7.1.0
+
+  zuraffa:
+    path: ../zuraffa
