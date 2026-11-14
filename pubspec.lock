@@ -269,10 +269,10 @@ packages:
     dependency: "direct main"
     description:
       name: graphql_plus
-      sha256: "0e0d33fc1220a3a95a5df845ee2bda9901cf291ef3cc575b6baebb2bbd24d8ec"
+      sha256: d650710987970bb7bf14d059566b0e9537e45bce9c5347a20628433c89da6258
       url: "https://pub.dev"
     source: hosted
-    version: "5.2.6"
+    version: "5.3.0"
   hive_ce:
     dependency: transitive
     description:
