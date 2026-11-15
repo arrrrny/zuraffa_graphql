@@ -1,3 +1,7 @@
+## 7.5.0 - 2026-11-15
+
+Release 7.5.0: Signal-backed view-state migration template with SignalScope ownership (#2076); signal listener/subscription cleanup on eager-delivery throw (#2081, #2083); UseCase/StreamUseCase catch-all SEVERE logs now carry the cause (#2077, #2079); dependencies upgraded and pinned to latest resolvable.
+
 ## 7.4.2 - 2026-11-12
 
 Adopt `graphql_plus` ^5.2.6 (pub.dev, arrrrny fork) in place of stock `graphql` `^5.2.4` -- ships the QueryManager double-completion hardening (guarded settle, subscription cancellation, `No element` on empty streams) that is the root cause behind the vendure #4/#8 timeout-storm family. Import surface and generated-code semantics unchanged: `package:graphql/client.dart` becomes `package:graphql_plus/graphql_plus.dart` (the fork keeps the identical export barrel and lib/src layout). Closes #1.
